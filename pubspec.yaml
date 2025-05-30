@@ -1,0 +1,50 @@
+name: contacts
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+# Environment
+environment:
+  sdk: ^3.7.2
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  permission_handler: ^11.4.0
+  call_log: ^5.0.1
+  intl: ^0.20.2
+  url_launcher: ^6.3.1
+  fast_contacts: ^4.0.0
+  flutter_contacts: ^1.1.9+2
+  google_fonts: ^6.2.1
+  flutter_phone_direct_caller: ^2.2.1
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+
+# Flutter section
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # Fonts section (optional – remove if unused)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
