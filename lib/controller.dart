@@ -10,7 +10,7 @@ class ContactController {
 
   Future<void> fetchDatabase() async {
 
-    final url = Uri.parse('http://192.168.1.14/nextgen_contacts/get_contacts.php');
+    final url = Uri.parse('Contact-API');
 
     print(url);
 
