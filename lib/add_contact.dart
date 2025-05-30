@@ -51,7 +51,7 @@ class _ContactInsertPageState extends State<ContactInsertPage> {
 
   Future<void> insertContact() async {
     final response = await http.post(
-      Uri.parse("http://192.168.1.14/nextgen_contacts/add_contact.php"),
+      Uri.parse("Contact_API"),
       body: {
         "name": nameController.text,
         "contact": contactController.text,
